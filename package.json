@@ -1,0 +1,36 @@
+{
+  "name": "webp-file-loader",
+  "version": "1.0.0",
+  "description": "Convert images such as PNG and JPG to WebP format.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "png",
+    "jpg",
+    "jpeg",
+    "webp",
+    "file-loader"
+  ],
+  "author": "dingdandan",
+  "license": "ISC",
+  "dependencies": {
+    "imagemin": "^7.0.1",
+    "imagemin-webp": "^6.0.0",
+    "loader-utils": "^2.0.0",
+    "mime": "^2.5.2"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tadeai2017/webp-file-loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tadeai2017/webp-file-loader/issues"
+  },
+  "homepage": "https://github.com/tadeai2017/webp-file-loader#readme"
+}
