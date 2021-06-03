@@ -44,16 +44,19 @@ module.exports = {
 ```
 ## API
 ### limit
-Type: `string|number`
-Default: `10240`
-默认10k以下的图片转成base64
-### quality
-Type: `string|number`
-Default: `75`
-png或jpg生成的webp图片的质量
+Type: `string|number`  
+Default: `10240`  
+默认10k以下的图片转成base64  
+### quality  
+Type: `string|number`  
+Default: `75`  
+png或jpg生成的webp图片的质量  
 ### name
-Type: `string`
-Default: `[hash].[ext]`
-生成的webp图片的文件名和相对路径
+Type: `string`  
+Default: `[hash].[ext]`  
+生成的webp图片的文件名和相对路径  
 ### 其他API
-其他参数可参考imageminWebp
+其他参数可参考imageminWebp  
+## Tips
+1. 若有cwebp-bin报错，可检查node_modules下cwebp-bin下是否有vendor文件夹，若没有则需要重新安装该依赖包
+
